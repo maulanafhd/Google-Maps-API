@@ -4,7 +4,6 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -138,18 +137,7 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback {
         mapFragment.getMapAsync(this);
         return view;
     }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_setting) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
+    
 
     private void flyTo(CameraPosition target) {
         m_map.animateCamera(CameraUpdateFactory.newCameraPosition(target), 10000, null);
