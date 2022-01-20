@@ -3,12 +3,6 @@ Google Maps Android API App from Udacity
 
 ## Link File APK : 
 https://drive.google.com/open?id=19Kn81KkLU9Jpw8_6_nMnt2fwpIZ4ZrBJ
-
-## Identitas Siswa :
-    Nama            : Maulana Fadia Hadi
-    Kelas / No urut : XII RPL 5 / 19
-    Angkatan        : 24
-    Nama Sekolah    : SMK Telkom Malang
     
 ## ScreenShoot
 
